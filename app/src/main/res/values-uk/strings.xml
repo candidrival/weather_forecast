@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="select_city">Виберіть місто</string>
+    <string name="today_weather">Погода сьогодні</string>
+    <string name="week_weather">Погода на тиждень</string>
+    <string name="two_week_weather">Погода на два тижні</string>
+    <string name="error_message">Щось пішло не так</string>
+    <string name="temperature_today">Температура: %s °C</string>
+    <string name="wind_today">Вітер: %s м/с</string>
+    <string name="humidity_today">Вологість: %s відсотків</string>
+    <string name="clouds_today">Хмарність: %s відсотків</string>
+    <string name="enter_city">Введіть місто</string>
+    <string name="save">Зберегти</string>
+    <string name="please_enter_city">Будь ласка, введіть місто</string>
+</resources>

@@ -1,0 +1,47 @@
+# Android Studio
+.idea/
+.gradle/
+local.properties
+*.iml
+.DS_Store
+
+# Build output
+/build/
+**/build/
+
+# Kotlin
+*.kotlin_module
+
+# Sign-in info
+*.jks
+*.keystore
+key.properties
+
+# Generated files
+/captures/
+/output.json
+
+# Log files
+*.log
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Android-specific
+*.apk
+*.ap_
+*.dex
+
+# NDK
+obj/
+
+# Jetpack Compose
+*.hprof
+
+# Tests
+/test-output/
+
+# Misc
+*.orig

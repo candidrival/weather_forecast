@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="select_city">Select City</string>
+    <string name="today_weather">Today Weather</string>
+    <string name="week_weather">Week Weather</string>
+    <string name="two_week_weather">Two Week Weather</string>
+    <string name="error_message">Something went wrong</string>
+    <string name="temperature_today">Temperature: %s °C</string>
+    <string name="wind_today">Wind: %s m/s</string>
+    <string name="humidity_today">Humidity: %s percent</string>
+    <string name="clouds_today">Clouds: %s percent</string>
+    <string name="enter_city">Enter city</string>
+    <string name="save">Save</string>
+    <string name="please_enter_city">Please enter a city</string>
+</resources>

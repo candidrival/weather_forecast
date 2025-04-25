@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.app.live.weather.forecast.presentation.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash" />
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.app.live.weather.forecast.presentation.main.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/todayWeatherFragment"
+        android:name="com.app.live.weather.forecast.presentation.today_weather.TodayWeatherFragment"
+        android:label="TodayWeatherFragment"
+        tools:layout="@layout/fragment_today_weather"/>
+
+    <fragment
+        android:id="@+id/selectCityFragment"
+        android:name="com.app.live.weather.forecast.presentation.select_city.SelectCityFragment"
+        android:label="SelectCityFragment"
+        tools:layout="@layout/fragment_select_city"/>
+
+    <fragment
+        android:id="@+id/weekWeatherFragment"
+        android:name="com.app.live.weather.forecast.presentation.weeks_forecast.WeekWeatherFragment"
+        android:label="WeekWeatherFragment"
+        tools:layout="@layout/fragment_week_weather"/>
+
+    <fragment
+        android:id="@+id/twoWeekWeatherFragment"
+        android:name="com.app.live.weather.forecast.presentation.weeks_forecast.TwoWeekWeatherFragment"
+        android:label="TwoWeekWeatherFragment"
+        tools:layout="@layout/fragment_two_week_weather"/>
+</navigation>

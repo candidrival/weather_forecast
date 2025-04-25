@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        android:textSize="20sp"
+        android:textColor="@color/yellow"
+        android:fontFamily="@font/sf_pro_bold" />
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_semibold"
+        android:textSize="16sp"
+        android:textColor="@color/blue"
+        tools:text="Temp" />
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_medium"
+        android:textSize="16sp"
+        android:textColor="@color/blue"
+        tools:text="Description" />
+</LinearLayout>
