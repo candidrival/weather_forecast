@@ -1,4 +1,4 @@
-package com.app.live.weather.forecast.domain.api.utils
+package com.app.live.weather.forecast.data.api.utils
 
 import okhttp3.Request
 import okio.Timeout

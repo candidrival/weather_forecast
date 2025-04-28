@@ -1,4 +1,4 @@
-package com.app.live.weather.forecast.domain.prefs
+package com.app.live.weather.forecast.data.prefs
 
 import kotlinx.coroutines.flow.Flow
 import java.lang.reflect.Type

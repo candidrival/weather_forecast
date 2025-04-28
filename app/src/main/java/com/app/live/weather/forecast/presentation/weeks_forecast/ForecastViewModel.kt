@@ -2,12 +2,10 @@ package com.app.live.weather.forecast.presentation.weeks_forecast
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.app.live.weather.forecast.data.ForecastItem
-import com.app.live.weather.forecast.data.ForecastResponse
-import com.app.live.weather.forecast.data.WeatherResponse
-import com.app.live.weather.forecast.domain.api.utils.NetworkResponse
-import com.app.live.weather.forecast.domain.prefs.PreferenceWrapper
-import com.app.live.weather.forecast.domain.repositories.WeatherRepository
+import com.app.live.weather.forecast.domain.ForecastResponse
+import com.app.live.weather.forecast.data.api.utils.NetworkResponse
+import com.app.live.weather.forecast.data.prefs.PreferenceWrapper
+import com.app.live.weather.forecast.data.repositories.WeatherRepository
 import com.app.live.weather.forecast.utils.base.BaseViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

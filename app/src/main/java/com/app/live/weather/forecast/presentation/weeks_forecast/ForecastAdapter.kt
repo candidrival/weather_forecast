@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.app.live.weather.forecast.R
-import com.app.live.weather.forecast.data.ForecastItem
+import com.app.live.weather.forecast.domain.ForecastItem
 import com.app.live.weather.forecast.databinding.ItemForecastBinding
 
 class ForecastAdapter : ListAdapter<ForecastItem, ForecastAdapter.ForecastViewHolder>(DiffCallback()) {

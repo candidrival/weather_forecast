@@ -1,4 +1,4 @@
-package com.app.live.weather.forecast.domain.prefs
+package com.app.live.weather.forecast.data.prefs
 
 import android.content.Context
 import android.content.SharedPreferences

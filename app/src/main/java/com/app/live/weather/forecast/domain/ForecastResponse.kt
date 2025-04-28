@@ -1,4 +1,4 @@
-package com.app.live.weather.forecast.data
+package com.app.live.weather.forecast.domain
 
 import com.google.gson.annotations.SerializedName
 

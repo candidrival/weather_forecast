@@ -1,9 +1,9 @@
-package com.app.live.weather.forecast.domain.api
+package com.app.live.weather.forecast.data.api
 
 import com.app.live.weather.forecast.BuildConfig
-import com.app.live.weather.forecast.data.ForecastResponse
-import com.app.live.weather.forecast.data.WeatherResponse
-import com.app.live.weather.forecast.domain.api.utils.GenericResponse
+import com.app.live.weather.forecast.domain.ForecastResponse
+import com.app.live.weather.forecast.domain.WeatherResponse
+import com.app.live.weather.forecast.data.api.utils.GenericResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

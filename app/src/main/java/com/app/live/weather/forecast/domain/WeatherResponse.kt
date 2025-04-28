@@ -1,4 +1,4 @@
-package com.app.live.weather.forecast.data
+package com.app.live.weather.forecast.domain
 
 data class WeatherResponse(
     val name: String,

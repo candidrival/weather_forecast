@@ -1,9 +1,9 @@
-package com.app.live.weather.forecast.domain.repositories
+package com.app.live.weather.forecast.data.repositories
 
-import com.app.live.weather.forecast.data.ForecastResponse
-import com.app.live.weather.forecast.data.WeatherResponse
-import com.app.live.weather.forecast.domain.api.WeatherApiService
-import com.app.live.weather.forecast.domain.api.utils.GenericResponse
+import com.app.live.weather.forecast.domain.ForecastResponse
+import com.app.live.weather.forecast.domain.WeatherResponse
+import com.app.live.weather.forecast.data.api.WeatherApiService
+import com.app.live.weather.forecast.data.api.utils.GenericResponse
 
 class WeatherRepository(private val api: WeatherApiService) {
 

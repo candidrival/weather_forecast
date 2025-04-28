@@ -1,4 +1,4 @@
-package com.app.live.weather.forecast.domain.api.utils
+package com.app.live.weather.forecast.data.api.utils
 
 import retrofit2.Call
 import retrofit2.CallAdapter

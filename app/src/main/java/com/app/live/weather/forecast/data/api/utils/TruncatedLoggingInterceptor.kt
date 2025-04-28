@@ -1,12 +1,8 @@
-package com.app.live.weather.forecast.di
+package com.app.live.weather.forecast.data.api.utils
 
-import android.util.Log
 import okhttp3.Interceptor
-import okhttp3.Request
 import okhttp3.Response
-import okhttp3.ResponseBody
 import okhttp3.ResponseBody.Companion.toResponseBody
-import timber.log.Timber
 
 class TruncatedLoggingInterceptor(private val maxBodyLength: Int = 1000) : Interceptor {
 

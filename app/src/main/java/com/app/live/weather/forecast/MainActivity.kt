@@ -19,7 +19,7 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
 
-    private val viewModel: ActivityViewModel by viewModel()
+    private val viewModel: MainActivityViewModel by viewModel()
     private lateinit var binding: ActivityMainBinding
 
     private val navHostFragment by lazy {

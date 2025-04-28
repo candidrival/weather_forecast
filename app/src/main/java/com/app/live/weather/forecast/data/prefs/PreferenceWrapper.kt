@@ -1,4 +1,4 @@
-package com.app.live.weather.forecast.domain.prefs
+package com.app.live.weather.forecast.data.prefs
 
 class PreferenceWrapper(
     private val preferences: SecuritySharedPreferences
